@@ -67,6 +67,11 @@
 % 最后一页
 \usepackage{lastpage}
 
+% 引用
+%\usepackage{hyperref}
+\usepackage[unicode]{hyperref}
+\hypersetup{colorlinks, bookmarksopen = true, bookmarksnumbered = true, pdftitle=LaTeX-cn, pdfauthor=K.L Wu, pdfstartview=FitH}
+
 % 奇怪的小定义
 \newcommand{\dpar}{\\ \mbox{}}  % 空两行
 \newcommand{\qd}[1]{{\bfseries{#1}}}  % 强调
@@ -338,6 +343,4 @@
 \usepackage[numindex,numbib]{tocbibind}
 \usepackage[square,super,sort&compress]{natbib}
 
-% 引用
-\usepackage{hyperref}
-\hypersetup{colorlinks, bookmarksopen = true, bookmarksnumbered = true, pdftitle=LaTeX-cn, pdfauthor=K.L Wu, pdfstartview=FitH}
+
